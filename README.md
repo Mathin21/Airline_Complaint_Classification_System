@@ -149,7 +149,7 @@ Refund Related Complaint
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/airline-complaint-classification.git
+git clone https://github.com/Mathin21/airline-complaint-classification.git
 ```
 
 Navigate to the project directory:
