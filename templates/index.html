@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complaint Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="card">
+
+        <h1>✈️ Airline Complaint Classifier</h1>
+
+        <form action="/predict" method="POST">
+            <textarea name="complaint" placeholder="Enter complaint..." required></textarea>
+            <button type="submit">Predict Category</button>
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
